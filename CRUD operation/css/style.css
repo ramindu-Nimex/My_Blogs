@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+body {
+   background-color: #1f242d;
+   color: #fff;
+}
+
+section{
+   margin-bottom: 5rem;
+}
+
+section h1 {
+   text-align: center;
+   letter-spacing: 3px;
+   font-size: 2.5rem;
+   font-weight: bold;
+   color: #a7a0a0;
+   text-shadow: 2px 2px 2px #ddd;
+   margin-bottom: 2rem;
+}
+
+section form {
+   position: relative;
+   max-width: 800px;
+   width: 100%;
+   margin: auto;
+   padding: 25px;
+   font-size: 20px;
+   letter-spacing: 2px;
+   background-color: #fff;
+   color: #282d33;
+   border-radius: 8px;
+   box-shadow: 0 0 15px #1f242d;
+}
+
+section form .inputbox {
+   width: 100%;
+   margin-top: 20px;
+}
+
+section form .inputbox label {
+   color: #282d33;
+}
+
+section form .inputbox input,
+section form .inputbox select {
+   position: relative;
+   height: 50px;
+   width: 100%;
+   outline: none;
+   font-size: 1rem;
+   color: #282d33;
+   margin-top: 8px;
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   padding: 0 15px;
+}
+
+section form .inputbox .formbtn {
+   background: #a7a0a0;
+   color: #1f242d;
+   font-weight: 900;
+   letter-spacing: 2px;
+   transition: all .45s ease;
+}
+
+section form .inputbox .formbtn:hover {
+   transform: scale(0.9);
+   cursor: pointer;
+}
+
+section .tableviewhead {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-bottom: 4rem;
+}
+
+section .tableviewhead h1 {
+   letter-spacing: 3px;
+   font-size: 2.5rem;
+   font-weight: bold;
+   color: #a7a0a0;
+   text-shadow: 2px 2px 2px #ddd;
+}
+
+section .tableviewhead .left a {
+   background-color: #fff;
+   color: #282d33;
+   padding: 10px 24px;
+   border-radius: 5px;
+   margin-left: 20px;
+   transition: all .45s ease;
+}
+
+section .tableviewhead a:hover {
+   background-color: #282d33;
+   color: #ddd;
+   transform: scale(0.9);
+}
+
+table {
+   width: 100%;
+   text-align: center;
+}
+
+table thead {
+   background: #eee;
+   color: #1f242d;
+}
+
+table th {
+   font-size: 1.5rem;
+   padding: 1rem;
+}
+
+table tbody td {
+   font-size: 1.4rem;
+   padding: 1rem;
+   border-bottom: 2px solid #a7a0a0;
+}
+
+tbody tr td a {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+tbody tr td .read {
+   background-color: #643ce7;
+   padding: 5px 4px;
+   border-radius: 5px;
+   margin: 10px auto;
+   color: #1f242d;
+   transition: all .45s ease;
+}
+
+tbody tr td .update {
+   background-color: #27ae60;
+   padding: 5px 4px;
+   border-radius: 6px;
+   margin: 10px auto;
+   color: #1f242d;
+   transition: all .45s ease;
+}
+
+tbody tr td .delete {
+   background-color: crimson;
+   padding: 5px 4px;
+   border-radius: 6px;
+   margin: 10px auto;
+   color: #1f242d;
+   transition: all .45s ease;
+}
+
+.formview {
+   text-align: center;
+   letter-spacing: 2px;
+   background-color: #ddd;
+   color: #282d33;
+   max-width: 800px;
+   margin: 10rem auto 5rem;
+   border-radius: 8px;
+   box-shadow: 0 0 15px #1f242d;
+}
+
+.formview .list {
+   display: block;
+   padding: 20px;
+}
