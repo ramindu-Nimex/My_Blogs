@@ -2,7 +2,7 @@
 
    $serverName = 'localhost';
    $userName = 'root';
-   $password = 'RH#2000@nimes';
+   $password = '';
    $dbName = 'crud';
 
    // create connection
