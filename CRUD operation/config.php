@@ -1,8 +1,10 @@
+// config.php
+
 <?php
 
    $serverName = 'localhost';
    $userName = 'root';
-   $password = 'RH#2000@nimes';
+   $password = ''; // if do you have a MySQL password put it
    $dbName = 'crud';
 
    // create connection
@@ -13,7 +15,7 @@
       die("connection failed" . $conn->connect_error);
    }
    else {
-      // echo "connection successfully <br>";
+      echo "connection successfully <br>";
    }
 
 ?>
