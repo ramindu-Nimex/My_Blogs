@@ -4,7 +4,7 @@
 
    $serverName = 'localhost';
    $userName = 'root';
-   $password = ''; // if do you have a MySQL password put it
+   $password = 'RH#2000@nimes';
    $dbName = 'crud';
 
    // create connection
